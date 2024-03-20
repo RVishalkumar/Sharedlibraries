@@ -12,5 +12,5 @@ def tomcatDeploy(jobname,ip,content)
 }
 def executeSelenium(jobname)
 {
-  sh 'java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar'
+  sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
 }
